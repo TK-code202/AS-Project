@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Pet Home || SignUp Page</title>
+</head>
+<body>
+    <div class="top d-flex bg-light mb-5 sticky-top">
+        <img src="./img/pet-logo.webp" alt="Logo">
+        <div class="d-block ml-2">
+
+            <h3 class="title text-warning mt-2">PetHome</h3>
+
+            <h3 class="title2 text-success  ">Animal Shelter</h3>
+        </div>
+        <ul class="nav ml-4">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="resource.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+        <div class="signup mt-4 ">
+            <button type="button" class="btn btn-primary " disabled>Sign up</button>
+        </div>
+    </div>
+
+
+
+    <div class="card bg-warning ml-2 mr-2">
+        <div class="card-body">
+          <h4 class="card-title text-center text-success">Sign Up</h4>
+          <h6 class="card-subtitle mb-2 text-muted text-center">PetHome Animal Shelter</h6>
+          <p class="card-text">
+            Ensure the fields below are filled with your correct information as adoption is only possible with a PetHome Account.
+          </p>
+          <form>
+            <div class="form-group">
+              <label for="NAME">First Name</label>
+              <input type="text" class="form-control" id="formName" placeholder="Enter Your First Name">
+            </div>
+            <div class="form-group">
+              <label for="NAMES">Middle and Last Names</label>
+              <input type="text" class="form-control" id="formNames" placeholder="Enter Your Names">
+            </div> 
+            <div class="form-group">
+                <label for="NUMBER">Phone Number</label>
+                <input type="tel" class="form-control" id="formNumber" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" id="formEmail" placeholder="Enter Your Email">
+            </div>
+            <div class="form-group">
+                <label for="NAME">Residential Adress</label>
+                <input type="text" class="form-control" id="formAdress" placeholder="Enter Your Adress, ensure you specify your state and country of residence">
+            </div>
+            <div class="form-group">
+                <label for="DOB">Date Of Birth</label>
+                <input type="date" class="form-control" id="formDOB" placeholder="Enter Your DOB">
+            </div>
+            <div class="form-group">
+                
+                <label for="Male">Male</label>
+                <input type="radio" name="Gender" value="Male">
+             
+                <label for="Female">Female</label>
+                <input type="radio" name="Gender" value="Female" >
+                <label for="Other">Other</label>
+                <input type="radio" name="Gender" value="Other" >
+            </div>    
+            <div class="form-group">
+                <label for="DOB">Password</label>
+                <input type="password" class="form-control" id="formpwd" placeholder="Enter Your Password" maxlength="7" minlength="4">
+            </div>
+            <div class="form-group">
+                <label for="DOB">Password</label>
+                <input type="password" class="form-control" id="formpwd" placeholder="Enter Your Password Again" maxlength="7" minlength="4" >
+            </div>
+            <p class="card-text">
+                Creating this account won't require you logging in constantly. But once in a while, you may be asked to login for security reasons. Ensure you understand our terms and conditions before agreeing.You can check TERMS OF USE at the foot of the page to read more.
+              </p>
+            <div class="form-group">
+              
+              <input type="checkbox" name="Agree" id="Check" required>
+              <label for="Agreement">I Agree</label>
+                
+            </div>
+           <a href="index.html"><button type="submit" class="btn btn-primary ">Create Account</button></a>
+
+
+
+                
+          </form>
+        </div>
+    </div>
+
+<!-- Page Footer -->
+
+    <div class="Footer bg-dark p-2 mt-3 ">
+        <ul class="d-flex ml-4">
+            <li> <a href="#" class="text-light">Visit Shelter</a></li>
+            <li><a href="#" class="text-light">Terms Of Use</a></li>
+            <li><a href="#" class="text-light">Policy</a></li>
+            <li><a href="#" class="text-light">Support Us</a></li>
+        </ul>
+        <p class="text-light text-center">©2023 TK Development and Studios.</p>
+    </div> 
+</body>
+</html>
